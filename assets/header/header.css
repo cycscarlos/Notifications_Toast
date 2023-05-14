@@ -14,7 +14,7 @@
   --step--3: clamp(0.58rem, 0.55rem + 0.12vw, 0.64rem);
   --step--2: clamp(0.69rem, 0.65rem + 0.21vw, 0.8rem);
   --step--1: clamp(0.83rem, 0.77rem + 0.33vw, 1rem);
-  /* --header-height: clamp(7rem, 3rem + 4vw, 8rem); */
+
   --header-height: 6rem;
 }
 body {

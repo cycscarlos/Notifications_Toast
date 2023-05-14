@@ -1,4 +1,4 @@
-<h2>Sistema de notificaciones tipo toast con animaciones | HTML, CSS y full Javascript vanilla</h2>
+<h2>Sistema de Alertas y Notificaciones tipo toast con animaciones | HTML, CSS y full Javascript vanilla</h2>
 
 <br>
 
@@ -10,7 +10,7 @@
 
 <br>
 
-Take a look at the website at the following link [Github Pages] (https://cycscarlos.github.io/Notificaciones_Toat/):
+Take a look at the website at the following link [Github Pages] (https://cycscarlos.github.io/Notifications_Toast/):
 
 <br>
 
@@ -33,5 +33,3 @@ Take a look at the website at the following link [Github Pages] (https://cycscar
 <li>CSS Custom properties for a lot of effects, like colors, font-size, etc.</li>
 
 </ul>
-
-Por: [Carlos Colmenares A. (zCoder!)](http://https:carlos-colmenares-a.netlify.app)
