@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notificaciones Toast</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/header/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/index.js" defer></script>
+  </head>
+  <body>
+    <!-- header Component -->
+    <header class="header">
+      <div class="header-container">
+        <div class="profile">
+          <div class="logoFoto">
+            <a href="#" class="logo">
+              <img
+                width="96"
+                height="72"
+                src="./assets/header/logo.jpg"
+                alt="Software Developer"
+              />
+            </a>
+          </div>
+
+          <div class="logotext">
+            zCoder!<br /><span>...on Social Media</span>
+          </div>
+        </div>
+
+        <div class="phone">
+          <i class="fa fa-phone" aria-hidden="true">+58 0414 324 63 96</i>
+          <p>Carlos Colmenares A.</p>
+          <a href="https://carlos-colmenares-a.netlify.app" target="_blank"
+            >https://carlos-colmenares-a.netlify.app</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <div class="contenedor">
+      <div class="hero">
+        <h1 class="titulo">Notificaciones Toast</h1>
+        <div class="contenedor-botones" id="contenedor-botones">
+          <button class="btn exito" data-tipo="exito">Exito</button>
+          <button class="btn error" data-tipo="error">Error</button>
+          <button class="btn info" data-tipo="info">Info</button>
+          <button class="btn warning" data-tipo="warning">Warning</button>
+        </div>
+      </div>
+
+      <div class="contenedor-toast" id="contenedor-toast"></div>
+    </div>
+  </body>
+</html>
